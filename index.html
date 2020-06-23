@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gmail</title>
+  </head>
+  <body id="formattazione">
+    <!-- intestazione pagina -->
+    <header>
+      <img id="logo" src="img/logo.png" alt="logo gmail">
+      <h1 id="scritta_logo">Gmail</h1>
+
+    </header>
+    <!-- /intestazione pagina -->
+
+    <!-- corpo -->
+    <main class="separatori">
+      <!-- sezione ricerca -->
+      <section>
+        <!-- inserimento ricerca -->
+        <div id="inserimento_ricerca">
+          <input type="text" name="ricerca" placeholder="search" value="">
+          <button type="button" name="button" id="bottone_ricerca"> VIA </button>
+        </div>
+        <!-- /inserimento ricerca -->
+      </section>
+      <!-- sezione ricerca -->
+
+      <!-- sezione mail non lette -->
+      <section>
+        <!-- visualizzazione mail non lette -->
+        <div id="non_lette">
+          <p>You have <span id="numero_mail"> 30 </span>  unread</p>
+        </div>
+        <!-- /visualizzazione mail non lette -->
+      </section>
+      <!-- /sezione mail non lette -->
+
+      <!-- sezione visualizzazione mail -->
+      <section id="box_mail">
+        <ul class="visual_lista">
+          <li class="mail">
+            <input type="checkbox" name="" value="">
+            &starf;
+            <strong>Oggetto della mail</strong>
+            <span>testo della mail...</span>
+          </li>
+          <li class="mail mail_letta">
+            <input type="checkbox" name="" value="">
+            &starf;
+            <strong>Oggetto della mail</strong>
+            <span>testo della mail...</span>
+          </li>
+          <li class="mail">
+            <input type="checkbox" name="" value="">
+            &starf;
+            <strong>Oggetto della mail</strong>
+            <span>testo della mail...</span>
+          </li>
+        </ul>
+      </section>
+      <!-- sezione visualizzazione mail -->
+    </main>
+    <!-- /corpo -->
+
+    <!-- fine pagine -->
+    <footer id="finale">
+      <p> Gmail <span> powered by Alessio</span>  </p>
+    </footer>
+    <!-- /fine pagine -->
+
+  </body>
+</html>
